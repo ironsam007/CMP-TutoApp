@@ -3,6 +3,7 @@ package com.plcoding.bookpedia.book.presentation.book_list
 import com.plcoding.bookpedia.book.domain.Book
 import com.plcoding.bookpedia.core.presentation.UiText
 
+//UI state holder in an MVI architecture
 data class BookListState(
     val searchQuery: String = "Kotlin",
     val searchResults: List<Book> = emptyList(),
